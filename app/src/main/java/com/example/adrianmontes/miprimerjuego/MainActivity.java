@@ -9,7 +9,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //le indicamos que tiene que cargar la clase View, no la actividad normal y le quitamos el titulo
+        //le indicamos que tiene que cargar la clase setcontentView, no la actividad normal y le quitamos el titulo
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(new GameView(this));
     }
